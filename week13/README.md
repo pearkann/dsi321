@@ -26,7 +26,7 @@ https://github.com/wasit7/dsi321_2023/blob/main/week13/conjob.yaml
 * modify schedule cronjob to every 6 hours
 * warning : this step requires publish your docker image to docker hub 
 ```yaml
-schedule: "* * * * *"   # modify to every 6 hours
+schedule: "0 */6 * * *"   # modify to every 6 hours
 image: kran13200/simple-scripy:latest # use your docker hub
 ```
 * create metadata.json  (see detail in link) : you have to modified information corresponding to your information - warning : name should be unique small letter and title should be big letter  
